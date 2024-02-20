@@ -4,11 +4,11 @@ const webpack = require('webpack'); // Import webpack module
 
 module.exports = {
   mode: 'production',
-  entry: './src/Navigation.js', // Path to your component entry file
+  entry: './src/Navigationmenu.js', // Path to your component entry file
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
-    filename: 'Navigation.bundle.[chunkhash].js', // Output filename
-    library: 'Navigation', // Name of the library
+    filename: 'Navigationmenu.bundle.[chunkhash].js', // Output filename
+    library: 'Navigationmenu', // Name of the library
     libraryTarget: 'umd', // Output module format
     umdNamedDefine: true, // Define the module's name for AMD
     globalObject: 'this', // Define the global object used,

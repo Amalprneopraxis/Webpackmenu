@@ -1,10 +1,10 @@
-import Navigation from "./Navigation";
+import Navigationmenu from "./Navigationmenu";
 
 function App() {
   return (
     <>
     <div>
-      <Navigation/>
+      <Navigationmenu/>
     </div>
     </>
   );

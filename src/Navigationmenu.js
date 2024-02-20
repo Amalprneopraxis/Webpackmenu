@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './components/headers/Navigation.css'
 
-const Navigation = () => {
+const Navigationmenu = () => {
     const [slideIndex, setSlideIndex] = useState('1');
   
     useEffect(() => {
@@ -45,6 +45,8 @@ const Navigation = () => {
       </div>
     );
   };
+
   // Attach Headernav to the window object
-   window.Navigation = Navigation;
-   export default Navigation;
+   window.Navigationmenu = Navigationmenu;
+
+   export default Navigationmenu;
